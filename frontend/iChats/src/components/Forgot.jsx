@@ -1,10 +1,11 @@
 import React from 'react'
-const App = () => {
+
+const Forgot = () => {
   return (
     <div>
-      i am home
+      i am forgot
     </div>
   )
 }
 
-export default App
+export default Forgot
