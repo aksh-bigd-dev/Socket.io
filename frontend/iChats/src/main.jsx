@@ -7,6 +7,7 @@ import Login from './components/Login.jsx'
 import Register from './components/Register.jsx'
 import Forgot from './components/Forgot.jsx'
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -29,7 +30,7 @@ const router = createBrowserRouter([
 ])
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
+<StrictMode>
     <RouterProvider router={router} />
-  </StrictMode>,
+</StrictMode>,
 )
